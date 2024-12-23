@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turing.com</title>
+    <link rel="icon" href="technology.png">
+    <link rel="stylesheet" href="turing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Faculty+Glyphic&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Londrina+Sketch&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- font1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Faculty+Glyphic&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Londrina+Sketch&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- font2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Faculty+Glyphic&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Londrina+Sketch&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- font3 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Faculty+Glyphic&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Londrina+Sketch&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <div class="logo"><img src="https://www.turing.com/assets/Turing-Wordmark_White.svg" width="180px"></div>
+        <div class="nav-left">
+            <ul>
+                <li><a href="#">What we do<i class="fa-solid fa-caret-down"></i></a></li>
+                <li><a href="#">Resources<i class="fa-solid fa-caret-down"></i></a></li>
+                <li><a href="#">For talent<i class="fa-solid fa-caret-down"></i></a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="btn1"><a href="#">Get Started</a></div>
+            <div class="btn2"><a href="#">Login<i class="fa-solid fa-caret-down"></i></a></div>
+        </div>
+        </div>
+    </header>
+    <div class="main">
+        <span class="title">
+        <h1>Accelerate your AGI deployment</h1>
+        <p>Turing builds and deploys generative AI products and solutions for organizations managing complex data. Trusted by global commercial enterprises, we solve their human intelligence business challenges and amplify productivity.</p>
+        </span>
+        <div class="button"><a href="#">Get Started</a></div>
+        <div class="slide">
+            <div class="roll">
+            <div class="lg">
+                <h2><i class="fa-brands fa-airbnb"></i>ChaptGPT</h2>
+            </div>
+            <div class="lg">
+                <h2><i class="fa-solid fa-users"></i>Gemini</h2>
+            </div>
+            <div class="lg">
+                <h2><i class="fa-brands fa-openid"></i>OpenAI</h2>
+            </div>
+            <div class="lg">
+                <h2><i class="fa-regular fa-snowflake"></i>SnowflakeBOX</h2>
+            </div>
+            <div class="lg">
+                <h2><i class="fa-solid fa-baby-carriage"></i>Carrier.Az</h2>
+            </div>
+            <div class="lg">
+                <h2><i class="fa-brands fa-airbnb"></i>ChaptGPT</h2>
+            </div>
+            <div class="lg">
+                <h2><i class="fa-solid fa-users"></i>Gemini</h2>
+            </div>
+            <div class="lg">
+                <h2><i class="fa-brands fa-openid"></i>OpenAI</h2>
+            </div>
+            <div class="lg">
+                <h2><i class="fa-regular fa-snowflake"></i>SnowflakeBOX</h2>
+            </div>
+            <div class="lg">
+                <h2><i class="fa-solid fa-baby-carriage"></i>Carrier.Az</h2>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="title2">
+            <p>“Turing's ability to rapidly scale up global technical talent to help produce the training data for our LLMs has been impressive.</p> <p class="sub-title">Their operational expertise allowed us to see consistent model improvement,</p> <p>even with all of the bespoke data collection needs we have.”</p>
+        </div>
+        <div class="ai-lab">
+            <p class="content-ai-lab">Operations Lead</p>
+            <p>World's leading AI lab</p>
+        </div>
+    </div>
+    <div class="main3">       
+        <h1>Expert product & solution deployment</h1>
+        <p>In the AGI era, only Turing has the right combination of training experience with the world's most powerful LLMs—GPT, Claude, and more—and AI-powered product development expertise to build faster, more efficient genAI solutions.</p>
+    </div>
+</body>
+</html>
